@@ -1,0 +1,26 @@
+.wrapper-section-about {
+    background-color: white;
+
+    .section-about {
+        background: white;
+        width: 1140px;
+        height: 350px;
+
+        .section-about-content {
+            display: flex;
+
+            .about-content-left {
+                flex: 1;
+            }
+
+            .about-content-right {
+                flex: 1;
+
+                p {
+                    font-size: 20px;
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}

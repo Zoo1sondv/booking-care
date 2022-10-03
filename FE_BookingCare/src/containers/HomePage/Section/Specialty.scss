@@ -1,0 +1,30 @@
+.wrapper-section-speciality {
+  background-color: white;
+
+  .section-speciality {
+    background: white;
+
+    .specialty-child {
+      cursor: pointer;
+      display: flex !important;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      & > .img-speciality {
+        border-radius: 8px;
+      }
+
+      .specialty-name {
+        padding: 10px 0;
+        font-weight: 600;
+        color: #06b0d5;
+        text-align: center;
+
+        &:hover {
+          color: #aae1ee;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,68 @@
+.detail-doctor-container {
+  min-height: 100vh;
+
+  strong {
+    font-size: 18px;
+  }
+
+  li {
+    font-size: 16px;
+  }
+
+  .introduce-doctor {
+    margin-top: 100px;
+    display: flex;
+    padding: 50px 100px;
+
+    .introduce-content-left {
+      border: 1px solid red;
+      height: 180px;
+      width: 180px;
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      border-radius: 50%;
+    }
+
+    .introduce-content-right {
+      margin-left: 30px;
+      flex: 4;
+
+      .doctor-description {
+        font-size: 18px;
+        color: #555;
+      }
+    }
+  }
+
+  .schedule-doctor {
+    margin: 0 100px;
+    display: flex;
+    min-height: 200px;
+    padding: 10px 0;
+
+    .content-left {
+      width: 50%;
+    }
+
+    .content-right {
+      width: 50%;
+    }
+  }
+
+  .content-detail-doctor {
+    padding: 50px 100px;
+    border: 2px solid rgb(175, 175, 175);
+    background-color: rgb(227, 227, 227);
+
+    img {
+      width: 80%;
+      display: flex;
+      margin: 0 auto;
+    }
+  }
+
+  .comment-doctor {
+    padding: 50px 100px;
+  }
+}

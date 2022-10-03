@@ -1,0 +1,11 @@
+.home-footer {
+  .home-footer-content {
+    text-align: center;
+    padding: 25px 0;
+    background-color: #64b9e5;
+    & > p {
+      margin: 0;
+      padding: 0;
+    }
+  }
+}

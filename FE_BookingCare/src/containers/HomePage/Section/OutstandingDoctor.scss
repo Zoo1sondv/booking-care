@@ -1,0 +1,43 @@
+.wrapper-section-outstanding-doctor {
+  background-color: rgb(230, 227, 227);
+
+  .section-outstanding-doctor {
+    background: rgb(230, 227, 227);
+
+    .slick-slide {
+      div {
+        div {
+          border: 1px solid rgb(215, 214, 214);
+          background-color: rgb(252, 246, 246);
+          border-radius: 12px;
+        }
+      }
+    }
+
+    .section-customize {
+      cursor: pointer;
+      display: flex !important;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      & > .img-doctor {
+        border-radius: 50%;
+        width: 50% !important;
+        margin: 10px auto;
+        height: 150px !important;
+      }
+
+      .doctor-name {
+        padding: 10px 0;
+        font-weight: 600;
+        color: #06b0d5;
+        text-align: center;
+
+        &:hover {
+          color: #aae1ee;
+        }
+      }
+    }
+  }
+}
